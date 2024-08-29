@@ -1,1 +1,1 @@
-nuitka --standalone --onefile  main.py --output-filename=OSCLogger
+nuitka --standalone --onefile  main.py --output-filename=OSCLogger --windows-icon-from-ico="icon.ico"
