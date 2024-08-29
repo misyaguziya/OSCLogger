@@ -1,0 +1,8 @@
+*.log
+*.exe
+*.spec
+.venv
+__pycache__
+main.build
+main.dist
+main.onefile-build
