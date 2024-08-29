@@ -68,17 +68,10 @@ class App:
                 time.sleep(0.1)
 
 if __name__ == "__main__":
-    # print(colorama.Fore.WHITE + "==========================================================")
-    # print(colorama.Fore.LIGHTCYAN_EX + pyfiglet.figlet_format("OSC Logger", font="slant"))
-    # print(colorama.Fore.WHITE + "Ideas by: " + colorama.Fore.YELLOW + "m's software")
-    # print(colorama.Fore.WHITE + "Version: " + colorama.Fore.YELLOW + "1.0.0")
-    # print(colorama.Fore.WHITE + "Developed by: " + colorama.Fore.YELLOW + "@misya_ai")
-    # print(colorama.Fore.WHITE + "==========================================================")
-
     table = Table(box=box.HORIZONTALS, show_header=True, header_style="bold cyan")
     table.add_column(pyfiglet.figlet_format("OSC Logger", font="slant"), justify="left")
     table.add_row("Ideas by: m's software", style="yellow")
-    table.add_row("Version: 1.0.0", style="yellow")
+    table.add_row("Version: 1.0.1", style="yellow")
     table.add_row("Developed by: @misya_ai", style="yellow")
     console = Console()
     console.print(table)
