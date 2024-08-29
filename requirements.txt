@@ -1,3 +1,6 @@
 python-osc==1.8.3
-pyinstaller==6.10.0
+nuitka==2.4.8
+rich==13.8.0
+colorama==0.4.6
+pyfiglet==1.0.2
 tinyoscquery @ git+https://github.com/cyberkitsune/tinyoscquery@0.1.2
